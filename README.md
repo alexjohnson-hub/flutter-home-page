@@ -1,16 +1,48 @@
-# myapp
+ Flutter Home Page
 
-A new Flutter project.
+A simple Flutter project demonstrating a basic home page with navigation from an introductory page.
 
-## Getting Started
+ Features
 
-This project is a starting point for a Flutter application.
+- Introductory page with a button to navigate to the home page
+- Home page with a welcome message
+- Clean and minimal UI design
 
-A few resources to get you started if this is your first Flutter project:
+ Getting Started
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+ Prerequisites
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Flutter installed on your machine
+- A code editor like Visual Studio Code or Android Studio
+
+ Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/alexjohnson-hub/flutter-home-page.git
+
+2. Navigate to the project directory:
+
+          cd flutter-home-page
+
+3.Get the dependencies:
+
+          flutter pub get
+
+4. Running the App
+   1.Connect a device or start an emulator.
+   2. Run the app:
+      
+          flutter run
+      
+Project Structure
+
+    flutter-home-page/
+     ├── lib/
+     │   ├── main.dart
+     │   ├── intro_page.dart
+     │   └── home_page.dart
+     ├── pubspec.yaml
+     └── README.md
+
+
